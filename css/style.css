@@ -118,6 +118,24 @@ transition: color 0.3s;
 color: #007bff;
 }
 
+.sec1 .btn {
+display: inline-block;
+margin-top: 20px;
+padding: 12px 30px;
+background-color: #007bff;
+color: #fff;
+text-decoration: none;
+border-radius: 30px;
+font-weight: bold;
+transition: background-color 0.3s, transform 0.3s;
+border: none;
+}
+
+.sec1 .btn:hover {
+background-color: #0056b3;
+transform: translateY(-2px);
+}
+
 /* Flip-card grundstruktur */
 .flip-card {
 background-color: transparent;
@@ -681,6 +699,7 @@ text-decoration: none;
 font-weight: bold;
 font-size: 1.2rem;
 transition: background-color 0.3s, transform 0.3s;
+border: none;
 }
 
 .back-to-top:hover {

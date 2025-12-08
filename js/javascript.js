@@ -5,3 +5,21 @@ document.querySelectorAll(".flip-card").forEach(card => {
         card.classList.toggle("active");
     });
 });
+
+//Henter DOM Elementer fra buttons
+const getprpdukterBtn = document.getElementById("produktBtn");
+const getbackTop = document.getElementById("backTop");
+const getSec2 = document.getElementById("sec2-scroll");
+
+getbackTop.addEventListener("click", () => {
+    window.scrollTo({
+        top:0,
+        behavior: "smooth"
+    });
+});
+
+getprpdukterBtn.addEventListener("click", () => {
+    getSec2.scrollIntoView({
+        behavior: "smooth"
+    });
+});
