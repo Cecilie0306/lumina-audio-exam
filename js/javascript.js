@@ -23,3 +23,7 @@ getprpdukterBtn.addEventListener("click", () => {
         behavior: "smooth"
     });
 });
+
+
+
+
