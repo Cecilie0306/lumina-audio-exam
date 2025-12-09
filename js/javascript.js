@@ -7,7 +7,7 @@ document.querySelectorAll(".flip-card").forEach(card => {
 });
 
 //Henter DOM Elementer fra buttons
-const getprpdukterBtn = document.getElementById("produktBtn");
+const getprodukterBtn = document.getElementById("produktBtn");
 const getbackTop = document.getElementById("backTop");
 const getSec2 = document.getElementById("sec2-scroll");
 
@@ -18,7 +18,7 @@ getbackTop.addEventListener("click", () => {
     });
 });
 
-getprpdukterBtn.addEventListener("click", () => {
+getprodukterBtn.addEventListener("click", () => {
     getSec2.scrollIntoView({
         behavior: "smooth"
     });
